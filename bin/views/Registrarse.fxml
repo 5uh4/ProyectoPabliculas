@@ -26,12 +26,12 @@
                   <Font name="Caladea" size="20.0" />
                </font>
             </TextField>
-            <Button fx:id="btnCrearUsuario" layoutX="150.0" layoutY="600.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #444444;" text="Crear Usuario" textFill="WHITE" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0">
+            <Button fx:id="btnCrearUsuario" layoutX="150.0" layoutY="600.0" mnemonicParsing="false" onAction="#registrar" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #444444;" text="Crear Usuario" textFill="WHITE" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0">
                <font>
                   <Font name="Caladea Italic" size="25.0" />
                </font>
             </Button>
-            <Label fx:id="lblAtras" alignment="CENTER" layoutX="362.0" layoutY="657.0" prefHeight="20.0" prefWidth="88.0" text="Atrás" textAlignment="CENTER" textFill="RED" underline="true" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="50.0">
+            <Label fx:id="lblAtras" alignment="CENTER" layoutX="362.0" layoutY="657.0" onMouseClicked="#atras" prefHeight="20.0" prefWidth="88.0" text="Atrás" textAlignment="CENTER" textFill="RED" underline="true" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="50.0">
                <font>
                   <Font name="Caladea" size="17.0" />
                </font>
