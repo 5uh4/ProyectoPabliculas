@@ -50,10 +50,20 @@ public class LoginController {
     @FXML
     private TextField tfUsuario;
 
+	private Main mainApp;
+    
     @FXML
     void initialize() {
 
     }
+    
+    public Main getMainApp() {
+		return mainApp;
+	}
+
+	public void setMainApp(Main mainApp) {
+		this.mainApp = mainApp;
+	}
     
     @FXML
 	void logear(ActionEvent event) {

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="351.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.AddMovieController">
+   <children>
+      <VBox alignment="CENTER" layoutX="185.0" layoutY="96.0" spacing="5.0" AnchorPane.topAnchor="96.0">
+         <children>
+            <Label text="Añadir película buscando el título" />
+            <TextField prefHeight="31.0" prefWidth="301.0" />
+            <Button fx:id="BtnBusqueda" mnemonicParsing="false" onAction="#BuscarPeli" text="Buscar" />
+         </children>
+      </VBox>
+      <Label fx:id="Back" layoutX="620.0" layoutY="14.0" onMouseClicked="#Return" text="Atrás" textAlignment="CENTER" textFill="#b90e0e" underline="true" />
+      <VBox alignment="CENTER" layoutX="446.0" layoutY="286.0">
+         <children>
+            <Label text="¿No encuentras lo que buscas?" />
+            <Label onMouseClicked="#AddManual" text="Agregalo" textAlignment="CENTER" textFill="#c61313" underline="true" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
